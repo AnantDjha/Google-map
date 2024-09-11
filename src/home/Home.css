@@ -1,0 +1,41 @@
+.main-home{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+
+}
+
+.btn-box{
+    width: 25rem;
+    height: 17rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 5px 5px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn-box a{
+    padding: 0.8rem 0;
+    width: 80%;
+    outline: none;
+    border: none;
+    margin: 1rem 0;
+    font-size: 17px;
+    background-color: rgb(218, 123, 89);
+    color: white;
+    transition-duration: 0.3s;
+    text-decoration: none;
+    text-align: center;
+}
+.btn-box a:active{
+    transform: scale(0.9);
+}
+

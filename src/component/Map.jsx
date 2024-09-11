@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 import { useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const containerStyle = {
   width: '100%',
@@ -94,6 +95,10 @@ function MapComponent() {
         <div>Loading Map...</div>
       )}
       {errorMessage && <p>{errorMessage}</p>}
+
+      <div className="backButton" style={{position:"fixed" , bottom:"0" , left:"0" , width:"100vw" , lineHeight:"3rem",textAlign:"center"}}>
+        <Link to = "/" style={{  textDecoration:"none" , color:'white' , backgroundColor:"green" , padding:"0.6rem 3rem", borderRadius:"10px"}}>Menu</Link>
+      </div>
     </LoadScript>
   );
 }

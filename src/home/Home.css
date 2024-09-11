@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.8);
     position: absolute;
     top: 0;
 
@@ -15,7 +15,7 @@
     height: 17rem;
     background-color: white;
     border-radius: 10px;
-    box-shadow: 2px 5px 5px black;
+    box-shadow: 2px 5px 5px red;
     display: flex;
     align-items: center;
     justify-content: center;
